@@ -1,7 +1,12 @@
 aid: adams-resources-and-energy
-url: https://raw.githubusercontent.com/api-evangelist/adams-resources-and-energy/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/adams-resources-and-energy/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.adams-resources-and-energy.com
+description: >-
+  Adams Resources & Energy is engaged in the marketing, transportation, terminalling,
+  and storage of crude oil and other related products in select markets across the
+  United States.
