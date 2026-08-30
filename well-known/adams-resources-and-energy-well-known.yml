@@ -1,0 +1,41 @@
+generated: '2026-08-30'
+method: probed
+source: live GET probes of the /.well-known/ discovery surface on every host named in apis.yml
+note: >-
+  Adams Resources & Energy publishes no /.well-known/ discovery surface. Every canonical
+  path was probed on the only host the company operates (www.adamsresources.com, a
+  Squarespace-hosted corporate site) and every one returned 404. A control probe of a
+  deliberately nonexistent /.well-known/ path also returned 404, so this host is NOT a
+  catch-all that answers 200 for everything — the 404s are honest negatives, not a soft-404
+  pattern. No WellKnown or SecurityTxt pointer is emitted, because nothing was served.
+hit_count: 0
+hosts:
+  - host: https://www.adamsresources.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+        note: 'returned application/json 404 body: {"message":"security.txt not found"}'
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+    soft_404_control:
+      path: /.well-known/zzz-nonexistent-control
+      status: 404
+      bytes: 781253
+      verdict: not-a-catch-all

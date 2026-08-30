@@ -1,11 +1,11 @@
-generated: '2026-07-11'
+generated: '2026-08-30'
 method: probed
 source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
 - host: www.adamsresources.com
   https: true
   tls_version: TLSv1.3
-  cert_expires: Oct  3 06:04:19 2026 GMT
+  cert_expires: Nov 27 05:34:20 2026 GMT
   hsts: true
   hsts_max_age: 15552000
 domains:

@@ -24,7 +24,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 created: '2026-04-19'
-modified: '2026-04-19'
+modified: '2026-08-30'
 specificationVersion: '0.23'
 name: Adams Resources & Energy
 description: >-
@@ -59,18 +59,14 @@ apis: []
 common:
   - type: DomainSecurity
     url: security/adams-resources-and-energy-domain-security.yml
+  - type: LLMsTxt
+    url: llms/adams-resources-and-energy-llms.txt
   - type: Website
-    url: https://www.adamsresources.com
-  - type: Portal
     url: https://www.adamsresources.com
   - type: Contact
     url: https://www.adamsresources.com/contact
-  - type: TermsOfService
-    url: https://www.adamsresources.com/terms
-  - type: PrivacyPolicy
-    url: https://www.adamsresources.com/privacy
   - type: LinkedIn
-    url: https://www.linkedin.com/company/adams-resources-energy-inc
+    url: 'https://www.linkedin.com/company/adams-resources-&-energy-inc'
   - type: Features
     data:
       - name: Crude Oil Marketing
@@ -131,3 +127,27 @@ maintainers:
   - FN: Kin Lane
     X-twitter: apievangelist
     email: info@apievangelist.com
+x-enrichment:
+  date: '2026-08-30'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Adams Resources & Energy is a crude oil marketing, trucking, terminalling and pipeline
+    operator whose entire public surface is an 11-page Squarespace corporate and investor-
+    relations site; there is no api. or developer. subdomain (both fail to resolve), no
+    /openapi.json, /swagger.json, /api-docs, /docs or /graphql, no GitHub organization, and
+    every /.well-known/ path including agent-card.json returns an honest 404.
+  evidence:
+    - url: https://www.adamsresources.com/openapi.json
+      status: 404
+    - url: https://www.adamsresources.com/.well-known/agent-card.json
+      status: 404
+    - url: https://api.adamsresources.com/
+      status: 0
+    - url: https://www.adamsresources.com/sitemap.xml
+      status: 200
+  checked: '2026-08-30'
