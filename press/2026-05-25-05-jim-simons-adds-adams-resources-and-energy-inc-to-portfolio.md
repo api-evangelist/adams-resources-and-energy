@@ -1,7 +1,9 @@
 ---
 title: Jim Simons Adds Adams Resources & Energy Inc to Portfolio
 url: https://www.gurufocus.com/news/2325226/jim-simons-adds-adams-resources-energy-inc-to-portfolio?mobile=true
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Adams Resources & Energy" press release artificial intelligence'
 position: 5
 source: serpapi-google
