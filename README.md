@@ -1,4 +1,4 @@
-# Adams Resources & Energy (adams-resources-and-energy)
+# Adams Resources & Energy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,51 +66,77 @@
 
 Adams Resources & Energy is a diversified energy company engaged in the marketing, transportation, terminalling, and storage of crude oil and other related petroleum products in select markets across the United States. Through its subsidiaries GulfMark Energy, Firebird Bulk Carriers, Phoenix Oil, and Victoria Express Pipeline, the company purchases approximately 90,000 barrels per day at the wellhead and operates over 260 tractor-trailers and 112 pipeline inventory locations. Adams Resources & Energy serves multiple U.S. petroleum basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, Bakken Shale, and Michigan, with over $1 billion in annual revenues and 400+ employees.
 
-**URL:** [https://www.adamsresources.com](https://www.adamsresources.com)
+**Areas:** Energy · Oil and Gas · Crude Oil · Transportation · Logistics · Midstream · Petroleum
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Adams Resources & Energy on APIs.io
 
-## Tags:
+Everything profiled for Adams Resources & Energy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adams-resources-and-energy/](https://apis.io/providers/adams-resources-and-energy/)** — or go straight to one of the APIs or properties below.
 
- - Energy, Oil And Gas, Crude Oil, Transportation, Logistics, Midstream, Petroleum
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-04-19
-- **Modified:** 2026-04-19
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adams Resources And Energy Domain Security](https://apis.io/security/adams-resources-and-energy/adams-resources-and-energy-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.adamsresources.com)
-- [Portal](https://www.adamsresources.com)
-- [Contact](https://www.adamsresources.com/contact)
-- [TermsOfService](https://www.adamsresources.com/terms)
-- [PrivacyPolicy](https://www.adamsresources.com/privacy)
-- [LinkedIn](https://www.linkedin.com/company/adams-resources-energy-inc)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Crude Oil Marketing | Purchases and markets crude oil at the wellhead across multiple U.S. petroleum basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, Bakken Shale, and Michigan. |
-| Crude Oil Transportation | Operates a fleet of over 260 tractor-trailers for the physical transportation of crude oil and petroleum products across the United States. |
-| Crude Oil Terminalling And Storage | Provides terminalling and storage services with approximately 425,000 barrels of capacity across dock facilities and 112 pipeline inventory locations. |
-| Specialty Chemical Transportation | Through Firebird Bulk Carriers, provides bulk liquid transportation services for liquid chemicals and dry bulk commodities. |
-| Off-Spec Fuel Recycling | Through Phoenix Oil, provides recycling and repurposing services for off-spec fuels, lubricants, and chemicals. |
-| Pipeline Operations | Through Victoria Express Pipeline, operates pipeline infrastructure for crude oil transportation and delivery. |
+**Kin Score 3.6** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-| Name | Description |
-|------|-------------|
-| Wellhead Crude Oil Purchase And Sale | Energy producers and exploration companies can sell crude oil at the wellhead to Adams Resources for marketing and distribution across multiple U.S. basins. |
-| Crude Oil Logistics And Delivery | Refiners and end-users can contract Adams Resources for the transportation and delivery of crude oil from production sites to refineries or storage facilities. |
-| Petroleum Product Storage | Companies requiring temporary or long-term storage of crude oil and petroleum products can utilize Adams Resources terminalling capabilities. |
-| Specialty Chemical Bulk Transport | Chemical manufacturers and distributors can use Firebird Bulk Carriers for the safe transportation of liquid chemicals and dry bulk materials. |
-| Off-Spec Fuel Management | Refineries and industrial facilities can use Phoenix Oil services to recycle or repurpose off-spec fuels and lubricants rather than disposal. |
+**Agent readiness 0.0** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**FN:** Kin Lane
+**Regulatory alignment 4.9** — Energy & Utilities
 
-**Email:** info@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adams-resources-and-energy/](https://apis.io/providers/adams-resources-and-energy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adams Resources & Energy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adams-resources-and-energy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
